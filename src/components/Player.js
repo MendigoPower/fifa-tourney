@@ -1,7 +1,6 @@
 import React from 'react';
 
 export default function Player(props) {
-  console.log(props.player);
   let winText;
   if (!props.player.wins) {
     winText = <h2>Currently with no wins!</h2>;
